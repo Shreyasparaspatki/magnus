@@ -1,0 +1,100 @@
+.getInTouchLightBox{padding:35px 30px 80px}.aspi-projects .getInTouchLightBox{right:0;margin-right:0;height:auto;min-height:500px}.getInTouchLightBox{background-color:#f6f2e3;padding:25px 30px 5px 30px;right:0;margin-right:0;position:absolute;margin-top:0;opacity:1;max-width:471px;width:100%;z-index:3;top:0}.getInTouchLightBox h3{background:url(../img/icon-enquire.png) 0 0 no-repeat;color:#000;font-family:DIN-Regular;font-size:23px;line-height:1.1em;padding:0 0 22px 32px}.getInTouchLightBox .formWrapper .fieldRow{padding-bottom:12px}.formWrapper .fieldRow{float:left;padding:0 0 10px;width:100%}.form-control,.getInTouchLightBox .formWrapper .fieldRow input[type=email],.getInTouchLightBox .formWrapper .fieldRow input[type=select],.getInTouchLightBox .formWrapper .fieldRow input[type=tel],.getInTouchLightBox .formWrapper .fieldRow input[type=text],.getInTouchLightBox .formWrapper .fieldRow input[type=time]{background:0 0;border-bottom:solid 1px #d2cec3;padding:5px 5px;border-top:0;border-right:0;border-left:0;margin-bottom:3px;box-shadow:none}.getInTouchLightBox .formWrapper .fieldRow input[type=tel],.getInTouchLightBox .formWrapper .fieldRow input[type=text],.getInTouchLightBox .formWrapper .fieldRow input[type=time]{background:0 0;border-bottom:solid 1px #d2cec3;padding:5px 0}.btn.btn-gold{border-color:#bd9234;background-color:#bd9234;color:#fff}.FormClose{position:absolute;right:25px;top:10px;font-size:30px;font-weight:500;cursor:pointer;z-index:9999999;opacity:1}.close{opacity:1!important;width:36px;height:20px}.btn{background:#bd9234;border:1px solid #bd9234;color:#fff;display:inline-block;font-size:19px;line-height:17px;min-width:120px;padding:11px 23px;position:relative;text-align:center;z-index:1;cursor:pointer;border-radius:0}.btn-primary:hover{color:#fff;background-color:#ce971e;border-color:#bd9234}.btn-primary.focus,.btn-primary:focus{color:#fff;background-color:#bd9234;border-color:#bd9234;box-shadow:none}.getInTouchLightBox .formWrapper .buttonWrap button{min-width:100px;padding:8px 20px;font-size:1.4rem}.call-no{color:#545454;font-family:DIN-Regular;font-size:19px}.call-no a{color:#545454;font-family:DIN-Regular;font-size:19px}#mobile{width:90%;float:right}#ph-code{padding:8px 0;width:auto;float:left;border-bottom:1px solid #d3d0c4}
+ul.radioGroup li, ul.checkGroup li {
+    display: inline-block;
+    padding: 0 20px 0 0;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+ul.radioGroup li input{
+    display: contents;
+}
+
+
+ul.radioGroup li label, ul.checkGroup li label {
+    cursor: pointer;
+    color: #383838;
+    float: left;
+    font-family: "DIN-Regular";
+    font-size: 17px;
+    line-height: 1.5em;
+    padding: 0 0 0 36px;
+    position: relative;
+    width: 100%;
+}
+
+ul.radioGroup li label:before, ul.checkGroup li label:before {
+    border: 1px solid #bd9234;
+    content: '';
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 22px;
+}
+
+ul.radioGroup li label:after, ul.checkGroup li label:after {
+    background: #bd9234;
+    content: '';
+    height: 11px;
+    left: 5.4px;
+    position: absolute;
+    top: 5px;
+    -webkit-transition: ease-out, 0.5s;
+    -o-transition: ease-out, 0.5s;
+    transition: ease-out, 0.5s;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    width: 11px;
+}
+
+ul.radioGroup li input:checked ~ label:after, ul.checkGroup li input:checked ~ label:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+ul.radioGroup li:last-child, ul.checkGroup li:last-child {
+    padding-right: 0;
+}
+
+ul.checkGroup li label:after {
+    height: 11px;
+    left: 5px;
+    top: 7px;
+    width: 14px;
+} 
+ol.listdec li {
+    list-style: decimal;
+}
+@media screen and (max-width:600px){h1{font:24px/50px "Helvetica Neue",Helvetica,Arial,sans-serif}.callbacks_nav{top:47%}}
+/*==========WhatsApp Chat===============*/
+.back-to-askme {
+  position: fixed;
+  display: block!important;
+  border-radius: 50%;
+  right: 0;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 99;
+}
+
+.back-to-askme i {
+  padding-top: 12px;
+  color: #fff;
+}
+.askme {
+    background: #4FCE5D;
+    color: #fff;
+    padding: 7px 11px;
+    float: right;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 3px 4px 7px #96e09e;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.lastvideo .video-box {
+    position: relative;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css1/bootstrap.min.css">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="./css1/style.css">
+	<title>Website Development</title>
+</head>
+
+<body class="bg-light">
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-lg-4 bg-white m-auto rounded-top wrapper">
+				<h2 class="text-center pt-3">Admin Login</h2>
+				<!-- Form -->
+				<form action="./login" method="post">
+					<div class="input-group mb-3">
+						<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+						<input type="text" name="username" class="form-control" placeholder="Email">
+					</div>
+					<div class="input-group mb-3">
+						<span class="input-group-text"><i class="fas fa-lock"></i></span>
+						<input type="password" name="password" class="form-control" placeholder="Password">
+					</div>
+					<div class="d-grid">
+						<button type="submit" class="btn btn-danger">Login Now</button>
+					</div>
+
+				</form>
+				<!-- Form -->
+				<!-- Display error message if exists -->
+				
+			<!-- Display error message if exists -->
+			<div th:if="${msg!='null'}" style="text-align: center; padding-top: 10px; color: red;">
+				 <div >
+                 <h6 th:text="${error}"></h6>
+            </div>
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
